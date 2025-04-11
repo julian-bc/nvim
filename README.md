@@ -8,17 +8,8 @@ This is a **minimal but functional** [Neovim](https://neovim.io/) configuration,
 Open your terminal and run:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/julian-bc/nvim/main/install.sh)
+cd ~/.config
+git clone https://github.com/julian-bc/nvim.git
 ```
 
----
-## Requirements
-- bash
-- curl
-- git
-- Homebrew (auto-installed if missing)
-
-> [!NOTE] 
-> Currently, this setup is intended only for systems that support Homebrew installation by default, such as **macOS** or compatible **Linux** distributions.
----
-
+Neovim will automatically use it the next time you open `nvim`.
